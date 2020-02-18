@@ -9,7 +9,7 @@ More info :
 https://inivation.com/support/software/jaer/
 
 Folders :
- - processAEDAT-master, provided by iniVation, contains various scripts helpful for reading the data files. loadaerdat.m has been modified to work for our case, various folders have been deleted to reduce the quantity of files.
+ - processAEDAT-master, provided by iniVation, contains various scripts helpful for reading the data files. loadaerdat.m has been modified to work for our case, as well as displayDVSdataNew.m, various folders have been deleted to reduce the quantity of files.
  - Prototype, code used to prototype and test concepts
  
 Files purposes :
@@ -21,6 +21,7 @@ Files purposes :
  - Prototype/processAPS.m, process APS (intensity based) events, display frames, and calculate flow.
  - Prototype/nbrEventsBien.m and Prototype/nombreEvents.m, calculates the number of events per second for a given acquisition, first one for our application, tries to remove the varying contrast problem, second one returns the number of events for the whole file
  - Prototype/opticalFlowPerso.m, calculate the flow for DVS events
- - Prototype/displayDVSdataNew.m, create a video and returns DVS events integrated over lapse of time
+ 
+ - processAERDAT-master/displayDVSdataNew.m, create a video and returns DVS events integrated over lapse of time
  
  - accelerationConstante.py, scripts used with NewPort NSTRUCT to move the miror with varying speed
